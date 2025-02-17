@@ -7,6 +7,10 @@ async function fetchCharacters() {
         const characters = await response.json()
         console.log(characters);
     } catch (error) {
-        console.error('Hiba történt az adatok lekérdezésekor: ', error)
+        console.error('Hiba történt az adatok lekérdezésekor: ', error);
     }
+}
+
+function displayCharacters(characters){
+
 }
